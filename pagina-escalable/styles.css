@@ -1,0 +1,33 @@
+/* Custom scrollbar for logger */
+
+/* Selector del scrollbar dentro de elementos con clase .logger-scroll */
+.logger-scroll::-webkit-scrollbar {
+  /* Ancho del scrollbar */
+  width: 6px;
+}
+
+/* Track (fondo) del scrollbar */
+.logger-scroll::-webkit-scrollbar-track {
+  /* Color de fondo del track */
+  background: #f1f1f1;
+}
+
+/* Thumb (la “barrita” que se arrastra) del scrollbar */
+.logger-scroll::-webkit-scrollbar-thumb {
+  /* Color del thumb */
+  background: #ccc;
+  /* Radio del borde del thumb */
+  border-radius: 4px;
+}
+
+/* Track en modo oscuro (cuando existe .dark en un ancestro) */
+.dark .logger-scroll::-webkit-scrollbar-track {
+  /* Color del track en dark */
+  background: #2d3748;
+}
+
+/* Thumb en modo oscuro (cuando existe .dark en un ancestro) */
+.dark .logger-scroll::-webkit-scrollbar-thumb {
+  /* Color del thumb en dark */
+  background: #4a5568;
+}
