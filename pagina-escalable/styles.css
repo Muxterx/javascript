@@ -30,4 +30,6 @@
 .dark .logger-scroll::-webkit-scrollbar-thumb {
   /* Color del thumb en dark */
   background: #4a5568;
+
+  
 }
